@@ -1,4 +1,8 @@
 # 练习构建一个带ssh功能的dockerbox
+
+构建命令
+docker build -t sshd:dockerfile .
+
 主要记录遇到的几个问题：  
 #### 1 镜像的问题
 本来是用163的镜像，但是一直有校验的问题，后来换成清华的镜像 finish
