@@ -33,6 +33,8 @@ docker-compose run xxx xxbash  # 在某服务商执行一个bash命令
 #### 4 docker-compose.yml属性
 ~~~~
 version: # 指定 docker-compose.yml 文件的写法格式
+# 是一个蛮重要的参数，主要是各版本稍微有点写法不同
+# 详见 官方文档： https://docs.docker.com/compose/compose-file/compose-versioning/
 
 services: # 多个容器集合
 
