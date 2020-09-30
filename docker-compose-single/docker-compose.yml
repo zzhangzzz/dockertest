@@ -1,0 +1,7 @@
+# docker-compose 使用version2 file
+version: '2'
+services: 
+    docker-demo:  #服务名称
+        build: . #Dockerfile路径
+        ports:  #端口映射
+            - "9000:8080"
